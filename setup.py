@@ -8,5 +8,6 @@ setup(name='myob_odbc',
     author_email='tim@growthpath.com.au',
     license='MIT',
     packages=['myob_odbc'],
+    install_requires = ['pyodbc'],
     zip_safe=False)
       
